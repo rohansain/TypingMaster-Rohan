@@ -1,0 +1,209 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height:  100vh;
+    color: white;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(0, 0, 0);
+}
+#hea{
+    font-size: 3.5rem;
+    font-family: cursive;
+    color: cyan;
+    position: absolute;
+    top: 30px;
+}
+#tim{
+    font-size: 3.5rem;
+    font-family: cursive;
+    color: yellow;
+    position: absolute;
+    top: 100px;
+}
+#comp_text{
+    font-size: 1.5rem;
+    font-family:Arial;
+    margin-bottom: 12px;
+}
+#user_text{
+    height: 30vh;
+    width: 85vw;
+    border-radius: 8px;
+    color:rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    word-spacing: 2.5px;
+}
+#btn{
+    /* width: 6vw;
+    height: 4vh;
+    cursor: pointer;
+    margin-top: 23px;
+    color: antiquewhite;
+    background-color: black;
+    font-size: 16px; */
+    text-decoration: none;
+    /* border: 2px solid rgb(0, 0, 0); */
+    /* color: black; */
+    /* background-color: rgb(175 173 187); */
+    /* display: inline-block; */
+    /* float: left; */
+    margin-top: 3px;
+    padding: 3px;
+    width: 12vw;
+
+    height: 8vh;
+    cursor: pointer;
+    margin-top: 23px;
+    color: rgb(0, 0, 0);
+    background-color: #6276e6;
+    font-size: 1.5rem;
+    border: 1px solid #f1dfdf;;
+    
+    border-radius: 200px;
+}
+#btn:hover{
+    background-color: rgb(35, 199, 103);
+    width: 15vw;
+    color: white;
+    border: 2px solid green;
+    text-align: center;
+}
+/* #rw{
+    text-decoration: none; */
+    /* border: 2px solid rgb(0, 0, 0); */
+    /* color: black; */
+    /* background-color: rgb(175 173 187); */
+    /* display: inline-block; */
+    /* float: left; */
+    /* margin-top: 3px;
+    padding: 3px;
+    width: 8vw;
+    height: 5vh;
+    cursor: pointer;
+    margin-top: 23px;
+    color: rgb(0, 0, 0);
+    background-color: #4e9095;
+    font-size: 16px;
+    border: 4px solid #1d4c7a;
+}
+#rw:hover{
+    
+} */
+
+
+
+.conRe {
+    display: flex;
+    align-items: center;
+    /* width: 100vw; */
+    
+   height: 50vh;
+
+
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+#resuHea{
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 2px 1px black;
+    color: rgb(90, 139, 204);
+}
+table {
+    border: 5px solid black;
+    padding: 15px;
+    height: 50%;
+    background-color: cornsilk;
+    width: 50vw;
+    /* border-collapse: collapse; */
+}
+
+td {
+    /* border: 2px solid black; */
+    height: 20%;
+
+
+    /* text-align: center; */
+}
+
+.chtab {
+    width: 40%;
+    
+}
+
+#plag {
+    text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    color: black;
+    background-color: rgb(175 173 187);
+    margin-top: 3px;
+    padding: 3px;
+}
+
+#plag:hover {
+    background-color: rgb(0, 0, 0);
+    width: 12vw;
+    color: white;
+    text-align: center;
+}
+.textShowUc{
+    position: relative;
+    left: 0px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    /* background-color: azure; */
+}
+.resultSho{
+        font-size: 20px;
+        color: rgb(172, 90, 90);
+    }
+    .lastcont{
+        /* border: 2px solid black; */
+        margin: 20px;
+        /* width: 50vw; */
+        background-color: cornsilk;
+        overflow: auto;
+    }
+    #ForBgcolor{
+        height: 100vh;
+    }
+
+    @media screen and (max-width: 600px){
+        #btn{
+            border-radius: 20px;
+            width: 30vw;
+        }
+
+    }
+    @media screen and (max-width: 400px){
+        #hea{
+            /* position: none; */
+
+           font-size: 2rem;  
+           /* background-color: green; */
+       }
+
+    }
+    
+    @media screen and (max-height: 600px){
+        body{
+            background-color: white;
+        }
+        #hea{
+             /* position: none; */
+
+            font-size: 2rem;  
+            /* background-color: green; */
+        }
+    }
