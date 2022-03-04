@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div id="container" class="container" >
+        <h1 id="hea">Typing Master</h1>
+        <marquee style="color:red;" behavior="" direction="">This Site is developed by Mr Rohan Sain</marquee>
+        <!-- <p class="tim" id="tim">0</p>; -->
+        <div id="comp_text">loading text... (refresh if you still have not get text)</div> 
+        <textarea name="user_text" id="user_text" class="user_text" placeholder="Enter the upper text" autofocus></textarea>
+        <div>
+            <button id="btn">Start</button>
+            <!-- <a href="#conResult" id="rw">View Speed</a> -->
+        </div>
+    </div>
+    <div id="ForBgcolor">
+        <div class="conRe" name="conResult">
+        <a id="conResult"> <!-- its id is set because it is use for hyperlink but it is not in use -->
+            <H3 id="resuHea">Typing Test Result</H3>
+        </a>
+        <table>
+            <tr>
+                <td class="chtab">Name</td>
+                <td>:</td>
+                <td id="user_name"></td>
+
+            </tr>
+            <tr>
+                <td class="chtab">Date & Time <d>
+                <td>:</td>
+                <td id="timval"></td>
+            </tr>
+            <tr>
+                <td class="chtab">Speed</td>
+                <td>:</td>
+                <td id="user_speed"></td>
+
+            </tr>
+            <tr>
+                <td class="chtab">Accuracy</td>
+                <td>:</td>
+                <td id="accuracyResult"></td>
+            </tr>
+        </table>
+        <a href="index.html" id="plag">Play Again</a>
+    </div>
+    <div class="lastcont">
+        <div class="textShowUc" id="comArea"></div>
+        <div class="textShowUc" id="userArea"></div>
+        <div class="resultSho" id="resultSho"></div>
+    </div>
+</div>
+    <script src="index.js"></script>
+    <script>
+        const user_name = document.getElementById("user_name");
+        let uname = prompt("enter your name");
+        user_name.innerHTML = uname;
+    </script>
+    <!-- <script src="index.js"></script> -->
+</body>
+
+</html>
